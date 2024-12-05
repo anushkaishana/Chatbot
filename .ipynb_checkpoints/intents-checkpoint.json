@@ -1,0 +1,168 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "howdy", "sup", "yo"],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Need help with something?",
+        "Hey {name}! Ready to learn?"
+      ],
+      "follow_up": [
+        "How's your day going so far?",
+        "What would you like help with today?"
+      ]
+    },
+    {
+      "tag": "ask_name",
+      "patterns": ["my name is *", "I am *", "call me *", "I'm *", "you can call me *"],
+      "responses": [
+        "Got it! Nice to meet you, {name}.",
+        "Okay {name}, what can I do for you today?"
+      ],
+      "follow_up": [
+        "What would you like to talk about, {name}?",
+        "Is there anything you'd like help with, {name}?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how's it going", "how are you doing", "what's up"],
+      "responses": [
+        "I'm happy to be here to help you! How can I assist?",
+        "I'm doing great! What can I do for you today?",
+        "I'm good, thanks for asking {name}! what can I help with?"
+      ],
+      "follow_up": [
+        "How about you, {name}? How are you feeling?",
+        "Is there something on your mind today, {name}?"
+      ]
+    },
+    {
+      "tag": "introduce_yourself",
+      "patterns": ["who are you", "what is your name", "introduce yourself", "tell me about yourself"],
+      "responses": [
+        "I'm EduBuddy, your personal assistant for study tips, motivation, and emotional support.",
+        "Hi! I'm EduBuddy. I'm here to make learning more engaging and help you with anything you need."
+      ],
+      "follow_up": [
+        "What would you like to know more about, {name}?",
+        "Let me know how I can assist you!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you're awesome", "you're great", "good bot", "thank you for helping me"],
+      "responses": [
+        "Thank you, {name}! That means a lot to me. I'm here to help!",
+        "I appreciate your kind words, {name}! Let me know how I can assist further."
+      ],
+      "follow_up": [
+        "Do you have any more questions, {name}?",
+        "Is there anything else you'd like to know?"
+      ]
+    },
+    {
+      "tag": "feeling_excited",
+      "patterns": ["excited", "happy", "feeling good", "in a good mood"],
+      "responses": [
+        "That's awesome, {name}! It's great to hear you're feeling good.",
+        "Wonderful, {name}! Keep that energy going. Let's channel it into something productive!"
+      ],
+      "follow_up": [
+        "Is there something exciting you'd like to share?",
+        "What's making you feel so good today?"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivated", "motivation", "inspired", "unmotivated", "lacking drive", "overcome","need positivity"],
+      "responses": [
+        "You've got this, {name}! Keep pushing forward, one step at a time.",
+        "Progress, not perfection, {name}! Keep moving towards your goals.",
+        "You are capable of amazing things, {name}. Believe in yourself!",
+        "Every small step counts, {name}. Stay consistent, and you'll see results.",
+        "Sometimes the hardest climb leads to the most beautiful view, {name}. Keep going!",
+        "Mistakes are proof that you're trying, {name}. Learn from them and move forward!",
+        "Great achievements often come from persistence, {name}. Stay determined!"
+      ],
+      "follow_up": [
+        "Would you like some more tips {name}?",
+        "Is there anything specific you'd like help with to stay motivated?",
+        "Let me know how I can support you in achieving your goals, {name}."
+      ]
+    },
+    {
+      "tag": "study_help",
+      "patterns": ["study", "focus", "help me study", "study tips", "concentration", "need help with studying"],
+      "responses": [
+        "Try breaking your study time into focused blocks, like 25 minutes of study followed by a 5-minute break.",
+        "Create a study schedule to help organize your time, {name}. Stay focused on one task at a time.",
+        "Don't forget to take short breaks, {name}! Your mind will work better if you give it a rest.",
+        "Eliminate distractions around you while studying. A quiet and clean space works wonders.",
+        "Drink water and stay hydrated while studying. A healthy body supports a sharp mind.",
+        "Use active recall techniques like summarizing what you've learned, {name}. It strengthens your memory!",
+        "Break down your study topics into smaller chunks. It makes the material less overwhelming, {name}."
+      ],
+      "follow_up": [
+        "Do you want help setting up a study schedule?",
+        "Do you struggle with any particular subjects or topics, {name}?",
+        "Would you like me to suggest more effective study strategies, {name}?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye", "goodbye", "exit", "see you", "later"],
+      "responses": [
+        "Goodbye, {name}! Feel free to reach out anytime!",
+        "See you soon, {name}! Keep learning!",
+        "Bye for now, {name}! Take care!"
+      ],
+      "follow_up": [
+        "Take care, {name}. Don't hesitate to come back if you need anything!",
+        "Good luck with everything, {name}! I hope you have a great day!"
+      ]
+    },
+    {
+      "tag": "feeling_bad",
+      "patterns": ["not feeling good", "feel down", "sad", "tired", "stressed", "unmotivated"],
+      "responses": [
+        "I'm really sorry you're feeling this way, {name}. It's okay to have tough days. Let’s talk about it.",
+        "It's alright to feel down, {name}. I'm here for you. Want to chat more about how you're feeling?",
+        "Don't worry, {name}. I'm here to help. Let's focus on something positive together."
+      ],
+      "follow_up": [
+        "Is there anything I can do to help, {name}?",
+        "I'm here if you need help or someone to talk to!"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["thank you", "thanks", "thank you so much", "thanks a lot", "many thanks"],
+      "responses": [
+        "You're welcome, {name}! Glad I could help!",
+        "Anytime, {name}! Feel free to ask if you need more assistance!",
+        "No problem, {name}! I'm happy to help!"
+      ],
+      "follow_up": [
+        "Is there anything else you'd like to ask, {name}?",
+        "I'm always here if you need help with anything else!"
+      ]
+    },
+    {
+      "tag": "affirmative_response",
+      "patterns": ["yes", "yeah", "okay", "alright", "sure", "yup", "ok"],
+      "responses": [
+        "Great, {name}! How can I assist further?",
+        "Alright, {name}! What’s next?",
+        "Got it, {name}! Let me know what you need help with.",
+        "Okay, {name}! I'm here to help!"
+      ],
+      "follow_up": [
+        "Do you need help with anything else, {name}?",
+        "Would you like me to suggest something, {name}?",
+        "Let me know if there's something specific you have in mind, {name}!"
+      ]
+    }
+  ]
+}
